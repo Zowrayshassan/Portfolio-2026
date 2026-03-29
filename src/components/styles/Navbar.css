@@ -13,15 +13,14 @@
   z-index: 9999;
 }
 .header ul {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
-  row-gap: 8px;
-  align-items: end;
+  column-gap: 15px;
+  align-items: center;
 }
 .header ul li {
   margin-left: 0px;
@@ -42,8 +41,21 @@
 }
 .navbar-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.2px;
+  text-decoration: none;
+}
+.logo-text {
+  font-family: "Geist", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  background: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #b8860b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
 @media only screen and (min-width: 500px) {
   .header {

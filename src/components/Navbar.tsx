@@ -1,8 +1,9 @@
-import { useEffect } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import HoverLinks from "./HoverLinks";
+// @ts-nocheck
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from "react";
+import HoverLinks from "./HoverLinks";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -43,14 +44,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          <span className="logo-text">ZH</span>
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:zowrayshassan@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          zowrayshassan@gmail.com
         </a>
         <ul>
           <li>

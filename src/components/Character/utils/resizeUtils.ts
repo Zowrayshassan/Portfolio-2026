@@ -1,6 +1,7 @@
-import * as THREE from "three";
+// @ts-nocheck
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
+import * as THREE from "three";
+import { setAllTimeline, setCharTimeline } from "../../utils/GsapScroll";
 
 export default function handleResize(
   renderer: THREE.WebGLRenderer,

@@ -9,7 +9,7 @@
   width: var(--cWidth);
   max-width: 1920px;
   margin: auto;
-  z-index: 9;
+  z-index: 999;
 }
 .what-box {
   width: 50%;
@@ -183,7 +183,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 450px;
+  width: 100%;
 }
 .what-border2 {
   position: absolute;
@@ -199,7 +199,7 @@
   animation: whatBorders 1.2s 1 forwards;
 }
 .what-border2 svg {
-  height: 500px;
+  height: 100%;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
@@ -383,6 +383,10 @@
   .what-box {
     max-width: calc(100% - 25px);
     margin: 0;
+  }
+  .what-box h2 {
+    font-size: 40px;
+    line-height: 42px;
   }
 }
 @media only screen and (min-width: 1950px) {

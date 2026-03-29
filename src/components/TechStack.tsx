@@ -1,15 +1,15 @@
-import * as THREE from "three";
-import { useRef, useMemo, useState, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
 import {
   BallCollider,
-  Physics,
-  RigidBody,
   CylinderCollider,
+  Physics,
   RapierRigidBody,
+  RigidBody,
 } from "@react-three/rapier";
+import { useEffect, useMemo, useRef, useState } from "react";
+import * as THREE from "three";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
@@ -18,15 +18,16 @@ const imageUrls = [
   "/images/node2.webp",
   "/images/express.webp",
   "/images/mongo.webp",
-  "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/python.png",
+  "/images/tailwind.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
-const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
+const sphereGeometry = new THREE.SphereGeometry(1, 16, 16); // Reduced segments
 
-const spheres = [...Array(30)].map(() => ({
+const spheres = [...Array(15)].map(() => ({ // Reduced from 30
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 

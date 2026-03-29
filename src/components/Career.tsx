@@ -15,43 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full-Stack Developer Intern</h4>
+                <h5>Eyratech Software House</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Building and contributing to real-world full-stack applications.
+              Learning and applying system design and scalable architecture
+              concepts. Working on SaaS-based solutions in a professional team
+              environment.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Co-Founder & Developer</h4>
+                <h5>ZH Developers</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Leading development of modern websites and SaaS-focused solutions.
+              Building high-converting landing pages for client acquisition.
+              Managing technical decisions and project execution.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Content Creator</h4>
+                <h5>Personal Brand</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Creating content around web development, learning journey, and
+              growth. Building a personal brand through consistency and
+              value-driven content. Simplifying tech concepts and sharing real
+              experiences.
             </p>
           </div>
         </div>
